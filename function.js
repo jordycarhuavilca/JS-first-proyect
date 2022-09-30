@@ -1,20 +1,3 @@
-let contador = 0
-change.onclick = function () {
-  if (contador == 0) {
-    document.getElementById('text').textContent = ' My name is Jordy'
-    contador++
-  } else if (contador == 1) {
-    document.getElementById('text').textContent = 'como você chama ?'
-    contador++
-  } else if (contador == 2) {
-    document.getElementById('text').textContent = 'Meu nome é Jordy'
-    contador++
-  } else {
-    document.getElementById('text').textContent = " What's your Name?"
-    contador = 0
-  }
-}
-
 function time() {
   let date = new Date()
   let hours = date.getHours()
@@ -64,12 +47,6 @@ function changeNameTime() {
   counter++
 }
 
-function timeOut() {
-  let persona1 = {
-    name: ' Jordy '
-  }
-  persona1.name
-}
 setInterval(changeNameTime, 800)
 changeNameTime()
 time()
