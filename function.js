@@ -48,5 +48,4 @@ function changeNameTime() {
 }
 
 setInterval(changeNameTime, 800)
-changeNameTime()
 time()
